@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+    integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+  <title>Kachis Cookies Forms</title>
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <h1>Homemade Cookies Delivered to Your Door</h1>
+      <p>We deliver boxes of freshly baked cookies to your door. Please fill in the form below to place your order</p>
+
+      <h3>ORDER FORM</h3>
+      <h5>Contact details</h5>
+      <form>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="name">Your name:</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="name" placeholder="Firstname Surname">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="num">Phone number:</label>
+          <div class="col-lg-10">
+            <input type="number" class="form-control" id="num" placeholder="Number including area code">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="email">Email:</label>
+          <div class="col-lg-10">
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+        </div>
+        <h5>Order Details</h5>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="num">Select a cookie type:</label>
+          <div class="col-lg-10">
+            <div class="btn-group btn-group-toggle" data-bs-toggle="buttons">
+              <label class="btn btn-outline-primary my-auto">
+                <input type="radio" class="btn-group" name="options" id="option2" autocomplete="off"> Chocolate
+              </label>
+              <label class="btn btn-outline-primary my-auto">
+                <input type="radio" class="btn-group" name="options" id="option2" autocomplete="off"> Shortbread
+              </label>
+              <label class="btn btn-outline-primary my-auto">
+                <input type="radio" class="btn-group" name="options" id="option3" autocomplete="off"> Macaron
+              </label>
+              <label class="btn btn-outline-primary active my-auto">
+                <input type="radio" class="btn-group" name="options" id="option1" autocomplete="off" checked>
+                Gingerbread
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="num">Number of boxes:</label>
+          <div class="col-lg-10">
+            <input type="number" class="form-control" id="num" placeholder="1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="num">Optional extras:</label>
+          <div class="col-lg-10">
+            <div class="form-check form-check-inline my-auto">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Extra Choc-chips</label>
+            </div>
+            <div class="form-check form-check-inline my-auto">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Icing-sugar</label>
+            </div>
+            <div class="form-check form-check-inline my-auto">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Almond flakes</label>
+            </div>
+            <div class="form-check form-check-inline my-auto">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+              <label class="form-check-label" for="inlineCheckbox4">Caramel</label>
+            </div>
+          </div>
+        </div>
+
+        <h5>Delivery Details</h5>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="address">Delivery Address:</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="address" placeholder="Enter address here">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-form-label col-lg-2" for="date">Delivery Date:</label>
+          <div class="col-lg-10">
+            <input type="date" class="form-control" id="date" placeholder="dd/mm/yyyy">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-lg-2 control-label" for="sort">Delivery options:</label>
+          <div class="col-lg-10">
+            <select class="form-control" name="sort" id="sort">
+              <option selected>Please select an option....</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="offset-lg-2 col-lg-10">
+            <div class="form-check ">
+              <input type="checkbox" class="form-check-input" id="remember">
+              <label class="form-check-label" for="remember"> Remember me</label>
+            </div>
+            <br>
+            <button type="reset" class="btn btn-primary">Reset</button> &nbsp;
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+
+      </form>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
